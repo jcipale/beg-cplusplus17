@@ -20,7 +20,7 @@ int main()
   {
     std::cout << "Enter a student's name: ";
 	std::string name;                       // Stores a student name
-	std::getline(std::cin, name);
+	std::cin >> name;                       
 
     names.push_back(name);
 	
