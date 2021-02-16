@@ -39,7 +39,7 @@ int main()
           is_same_word = false;                              // ...it is not the word                                 
           break;      
         }
-	  }
+      }
       if (is_same_word)                                      // If it is the word...
       {
         for (size_t i {start}; i < end; ++i)                 // ... replace by asterisks
@@ -49,5 +49,5 @@ int main()
     start = text.find_first_not_of(separators, end + 1);     // Find 1st character of next word
   }
 
-  std::cout << std::endl << text << std::endl;
+  std::cout << std::endl << text << std::endl;k
 }
